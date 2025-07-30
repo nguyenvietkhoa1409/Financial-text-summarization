@@ -1,0 +1,7 @@
+data_paths:
+  price_data: /content/drive/My Drive/NCKH/price_data/
+  news_data: /content/drive/My Drive/NCKH/news_data/03_primary/
+fetch_params:
+  start_date: '2023-08-17'
+  end_date: '2025-04-10'
+  tickers: ['TSLA', 'AMZN', 'MSFT', 'NFLX']
