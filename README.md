@@ -1,6 +1,6 @@
-# FinMem Pipeline 📈
+# Financial text summarization project 📈
 
-Welcome to **FinMem Pipeline**! 🚀 This project is a powerful, modular data pipeline designed to aggregate, process, and analyze financial data, delivering investor-focused insights with efficiency and precision. Built upon the innovative **FinMem** framework, it combines multiple data sources into a unified schema, leverages cost-effective LLM inference, and ensures high-quality results through robust evaluation and visualization techniques.
+Welcome to **Financial-text-summarization**! 🚀 This project is a powerful, modular data pipeline designed to aggregate, process, and analyze financial data, delivering investor-focused insights with efficiency and precision. Built upon the innovative **FinMem** framework, it combines multiple data sources into a unified schema, leverages cost-effective LLM inference, and ensures high-quality results through robust evaluation and visualization techniques.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8+-blue" alt="Python Version">
@@ -113,12 +113,8 @@ Save results to parquet files and generate visualizations.
 
 🤝 Contributing
 We welcome contributions! 🌟 Please fork the repository, create a pull request, or open an issue to suggest improvements or report bugs.
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
-🙏 Acknowledgments
 
+🙏 Acknowledgments
 FinMem Team: For their groundbreaking work on the FinMem framework, providing a robust foundation for this pipeline.
 Hugging Face: For providing the cost-effective Llama-3-2-3B-Instruct endpoint.
 Open Source Community: For the libraries and tools that power this project.
-
-Happy trading and analyzing! 🚀📈```
