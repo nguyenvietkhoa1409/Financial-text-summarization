@@ -2,15 +2,9 @@
 
 Welcome to **Financial-text-summarization**! 🚀 This project is a powerful, modular data pipeline designed to aggregate, process, and analyze financial data, delivering investor-focused insights with efficiency and precision. Built upon the innovative **FinMem** framework, it combines multiple data sources into a unified schema, leverages cost-effective LLM inference, and ensures high-quality results through robust evaluation and visualization techniques.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.8+-blue" alt="Python Version">
-  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status">
-</p>
-
 ## 🎯 Purpose
 
-The **FinMem Pipeline** aims to empower financial analysts, data scientists, and developers by:
+This project aims to empower financial analysts, data scientists, and developers by:
 - 🌐 **Aggregating** diverse financial data (stock prices, news articles, and SEC filings) into a cohesive dataset.
 - ✍️ **Summarizing** large-scale textual data (~24,000 records, ~2,000 tokens each) into concise, investor-tailored insights.
 - ✅ **Evaluating** summary quality using semantic analysis to ensure accuracy and relevance.
@@ -58,9 +52,40 @@ The pipeline is built with a modular architecture, ensuring flexibility and robu
 ## 📂 Project Structure
 
 The project is organized for clarity and maintainability:
-
-finmem_pipeline/├── finmem_pipeline/           # Core Python package│   ├── init.py            # Package initialization│   ├── config.py              # Loads configuration settings│   ├── data_fetch/            # Data fetching modules│   │   ├── init.py│   │   ├── yfinance_fetcher.py│   │   ├── alpaca_fetcher.py│   │   ├── sec_fetcher.py│   │   └── reuters_crawler.py│   ├── data_processing/       # Data processing modules│   │   ├── init.py│   │   ├── price_processor.py│   │   ├── news_processor.py│   │   └── reuters_date_adjuster.py│   ├── utils/                 # Utility functions│   │   ├── init.py│   │   ├── logging.py         # Logging setup│   │   └── storage.py         # Data storage utilities│   ├── summarization/         # Summarization and evaluation│   │   ├── init.py│   │   ├── summarizer.py      # LLM-based summarization│   │   └── evaluator.py       # SBERT evaluation and visualization├── scripts/                   # Executable scripts│   └── run_pipeline.py        # Main pipeline script├── config/                    # Configuration files│   └── config.yaml            # Pipeline configuration├── .env                       # Environment variables (API keys)├── .gitignore                 # Excludes sensitive files├── README.md                  # Project documentation├── requirements.txt           # Dependency list└── setup.py                   # Package setup
-
+```bash
+finmem_pipeline/
+├── finmem_pipeline/           # Core Python package
+│   ├── __init__.py            # Package initialization
+│   ├── config.py              # Loads configuration settings
+│   ├── data_fetch/            # Data fetching modules
+│   │   ├── __init__.py
+│   │   ├── yfinance_fetcher.py
+│   │   ├── alpaca_fetcher.py
+│   │   ├── sec_fetcher.py
+│   │   └── reuters_crawler.py
+│   ├── data_processing/       # Data processing modules
+│   │   ├── __init__.py
+│   │   ├── price_processor.py
+│   │   ├── news_processor.py
+│   │   └── reuters_date_adjuster.py
+│   ├── utils/                 # Utility functions
+│   │   ├── __init__.py
+│   │   ├── logging.py         # Logging setup
+│   │   └── storage.py         # Data storage utilities
+│   ├── summarization/         # Summarization and evaluation
+│   │   ├── __init__.py
+│   │   ├── summarizer.py      # LLM-based summarization
+│   │   └── evaluator.py       # SBERT evaluation and visualization
+├── scripts/                   # Executable scripts
+│   └── run_pipeline.py        # Main pipeline script
+├── config/                    # Configuration files
+│   └── config.yaml            # Pipeline configuration
+├── .env                       # Environment variables (API keys)
+├── .gitignore                 # Excludes sensitive files
+├── README.md                  # Project documentation
+├── requirements.txt           # Dependency list
+└── setup.py                   # Package setup
+```
 ## 🌟 Key Highlights
 
 - **Unified Data Pipeline** 🌐: Seamlessly aggregates data from Yahoo Finance, Alpaca, Reuters, and (future) SEC filings into a single, structured schema for comprehensive financial analysis.
