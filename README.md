@@ -81,10 +81,9 @@ finmem_pipeline/
 ├── config/                    # Configuration files
 │   └── config.yaml            # Pipeline configuration
 ├── .env                       # Environment variables (API keys)
-├── .gitignore                 # Excludes sensitive files
 ├── README.md                  # Project documentation
-├── requirements.txt           # Dependency list
-└── setup.py                   # Package setup
+└── requirements.txt           # Dependency list
+
 ```
 ## 🌟 Key Highlights
 
