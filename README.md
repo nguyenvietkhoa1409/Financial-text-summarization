@@ -99,44 +99,6 @@ This project builds upon the **FinMem** framework, as described in the paper *FI
 - **Cost-Effective LLM Inference**: Integrated the **Llama-3-2-3B-Instruct** endpoint, significantly reducing costs compared to GPT APIs while maintaining high-quality summarization for large-scale datasets (~24,000 records, ~2,000 tokens each).
 - **Evaluation & Visualization**: Added SBERT-based semantic evaluation to filter low-quality summaries and implemented visualization of token length distributions to ensure result quality and consistency.
 
-## 🚀 Getting Started
-
-### Prerequisites
-- 🐍 Python 3.8+
-- 🔑 API keys for Alpaca and Hugging Face
-- 📦 Dependencies listed in `requirements.txt`
-
-### Installation
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/finmem-pipeline.git
-   cd finmem-pipeline
-
-
-Install Dependencies:pip install -r requirements.txt
-
-
-Configure Environment:Create a .env file in the project root:ALPACA_API_KEY=your_alpaca_api_key
-ALPACA_SECRET_KEY=your_alpaca_secret_key
-GOOGLE_DRIVE_CREDENTIALS_PATH=/path/to/your/credentials.json
-HF_TOKEN=your_huggingface_token
-
-
-Run the Pipeline:python scripts/run_pipeline.py
-
-
-
-🛠️ Usage
-Execute scripts/run_pipeline.py to:
-
-Fetch and process financial data from multiple sources.
-Generate investor-tailored summaries using the Llama-3-2-3B-Instruct endpoint.
-Evaluate summaries with SBERT and visualize token metrics.
-Save results to parquet files and generate visualizations.
-
-🤝 Contributing
-We welcome contributions! 🌟 Please fork the repository, create a pull request, or open an issue to suggest improvements or report bugs.
-
 🙏 Acknowledgments
 FinMem Team: For their groundbreaking work on the FinMem framework, providing a robust foundation for this pipeline.
 Hugging Face: For providing the cost-effective Llama-3-2-3B-Instruct endpoint.
