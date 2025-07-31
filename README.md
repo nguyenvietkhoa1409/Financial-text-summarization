@@ -20,7 +20,7 @@ The pipeline is built with a modular architecture, ensuring flexibility and robu
 1. **📥 Data Fetching** (`finmem_pipeline/data_fetch/`):
    - **Yahoo Finance** (`yfinance_fetcher.py`): Retrieves historical stock price data.
    - **Alpaca API** (`alpaca_fetcher.py`): Fetches stock and news data.
-   - **SEC Filings** (`sec_fetcher.py`): Placeholder for retrieving SEC filings (to be implemented).
+   - **SEC Filings** (`sec_fetcher.py`): Retrieving SEC filings (to be implemented).
    - **Reuters News** (`reuters_crawler.py`): Crawls news articles from Reuters.
 
 2. **🔄 Data Processing** (`finmem_pipeline/data_processing/`):
