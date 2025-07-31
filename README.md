@@ -10,7 +10,7 @@ This project aims to empower financial analysts, data scientists, and developers
 - ✅ **Evaluating** summary quality using semantic analysis to ensure accuracy and relevance.
 - 📊 **Visualizing** data metrics to validate consistency and performance.
 
-This pipeline is optimized for scalability and cost-efficiency, using the **" $6.75 llama-3-2-3b-instruct-xal"** inference endpoint through HuggingFace (Nvidia A10G) as a low-cost alternative to expensive APIs like GPT, making it ideal for processing large datasets.
+This pipeline is optimized for scalability and cost-efficiency, using the **" $6.75 llama-3-2-3b-instruct-xal"** ([HF inference-endpoints (https://huggingface.co/inference-endpoints/dedicated)) (Nvidia A10G) as a low-cost alternative to expensive APIs like GPT, making it ideal for processing large datasets.
 
 ## 🛠️ Core Modules, Functions, and Results
 
@@ -95,7 +95,6 @@ finmem_pipeline/
 ## 🎓 Attribution to FinMem Framework
 
 This project builds upon the **FinMem** framework, as described in the paper *FINMEM: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design* ([arXiv:2311.13743](https://arxiv.org/abs/2311.13743)) by Yu et al. The FinMem framework provides a robust foundation for LLM-based financial agents with layered memory and character design.
-
 **My Contribution**:
 - **Cost-Effective LLM Inference**: Integrated the **Llama-3-2-3B-Instruct** endpoint, significantly reducing costs compared to GPT APIs while maintaining high-quality summarization for large-scale datasets (~24,000 records, ~2,000 tokens each).
 - **Evaluation & Visualization**: Added SBERT-based semantic evaluation to filter low-quality summaries and implemented visualization of token length distributions to ensure result quality and consistency.
