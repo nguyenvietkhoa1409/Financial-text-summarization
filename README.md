@@ -10,7 +10,7 @@ This project aims to empower financial analysts, data scientists, and developers
 - ✅ **Evaluating** summary quality using semantic analysis to ensure accuracy and relevance.
 - 📊 **Visualizing** data metrics to validate consistency and performance.
 
-This pipeline is optimized for scalability and cost-efficiency, using the **" $6.75 llama-3-2-3b-instruct-xal"** ([HF inference-endpoints] (https://huggingface.co/inference-endpoints/dedicated)) (Nvidia A10G) as a low-cost alternative to expensive APIs like GPT, making it ideal for processing large datasets.
+This pipeline is optimized for scalability and cost-efficiency, using the **" $6.75 llama-3-2-3b-instruct-xal"** [HF inference-endpoints](https://huggingface.co/inference-endpoints/dedicated) (Nvidia A10G) as a low-cost alternative to expensive APIs like GPT, making it ideal for processing large datasets.
 
 ## 🛠️ Core Modules, Functions, and Results
 
